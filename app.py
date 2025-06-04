@@ -8,7 +8,6 @@ import os
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
 from langchain.chains import RetrievalQA
-from langchain_community.llms import HuggingFacePipeline
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFacePipeline
 from langchain.document_loaders import TextLoader
